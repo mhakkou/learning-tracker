@@ -1,0 +1,21 @@
+{
+    "name": "mhakkou/learning-tracker",
+    "description": "A raw PHP web application to track learning progress across courses, topics, and tasks",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mhakkou\\LearningTracker\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mhakkou",
+            "email": "moataz.hakkou@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
